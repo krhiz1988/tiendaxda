@@ -1,0 +1,28 @@
+h1 {
+    font-weight: $old-bold;
+    font-family: $old-standard;
+    font-size: $xxx-large;
+    text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    h1 {
+        font-weight: $old-bold;
+        font-family: $old-standard;
+        font-size: $xxx-large;
+        text-align: left;
+    }
+
+
+
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-weight: $old-bold;
+        font-family: $old-standard;
+        font-size: $xxx-large;
+        text-align: left;
+    }
+}

@@ -1,0 +1,26 @@
+.navbar__bg-navbar {
+    background-color: $white;
+}
+
+.navbar__img {
+    width: 79px;
+    height: 46px;
+}
+
+.navbar__link {
+    color: $smoky-black;
+    font-weight: $raleway-bold;
+}
+
+.navbar__button {
+    background-color: $smoky-black;
+}
+
+.navbar__brand {
+    width: 50px;
+    height: 50px;
+    background-color: $smoky-black;
+    color: $white;
+    padding: 5px;
+    align-items: center;
+}

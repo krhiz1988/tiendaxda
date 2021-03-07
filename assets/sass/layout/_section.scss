@@ -1,0 +1,223 @@
+@media (min-width: 992px) {
+    .section {
+        padding-right: 0px !important;
+    }
+
+
+    .textos-section {
+        padding: 30px;
+
+        &__bajada {
+            font-size: $large;
+            font-weight: $raleway-regular;
+            color: $quick-silver;
+            text-align: left;
+        }
+
+        &__boton-tienda {
+
+
+            &:hover {
+                background-color: $smoky-black;
+                color: $white;
+            }
+        }
+    }
+
+    .newsletter {
+        background-color: $smoky-black;
+        padding: 30px;
+
+
+        &__section-titulo {
+            font-size: $xl-large;
+            color: $white;
+            font-weight: $old-bold;
+            font-family: $old-standard;
+        }
+
+        &__section-input {
+            padding-left: 0px !important;
+        }
+    }
+
+    .img-xda {
+        display: block;
+
+        &__section-img {
+            padding-right: 0px !important;
+            padding-left: 0px !important;
+        }
+
+    }
+
+    .suscribirse {
+        position: relative;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        writing-mode: vertical-lr;
+        margin-top: 400px;
+
+        &__caja {
+
+            position: absolute;
+            bottom: 0;
+            font-size: $xl-large;
+            font-weight: $old-bold;
+            font-family: $old-standard;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .section-header {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .img-xda {
+
+
+        &__section-img {
+            display: none;
+            padding-right: 0px !important;
+            padding-left: 0px !important;
+        }
+
+    }
+
+    .suscribirse {
+        position: relative;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        writing-mode: vertical-lr;
+        margin-top: 450px;
+
+        &__caja {
+
+            position: absolute;
+            bottom: 0;
+            font-size: $xl-large;
+            font-weight: $old-bold;
+            font-family: $old-standard;
+        }
+    }
+
+    .newsletter {
+        background-color: $smoky-black;
+        padding: 30px;
+        margin-top: 20px;
+
+        &__section-titulo {
+            font-size: $xl-large;
+            color: $white;
+            font-weight: $old-bold;
+            font-family: $old-standard;
+        }
+
+        &__section-input {
+            padding-left: 0px !important;
+        }
+    }
+
+    .textos-section {
+        padding: 50px;
+
+        &__bajada {
+            font-size: $large;
+            font-weight: $raleway-regular;
+            color: $quick-silver;
+            text-align: left;
+        }
+
+        &__boton-tienda {
+
+
+            &:hover {
+                background-color: $smoky-black;
+                color: $white;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .section-header {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .img-xda {
+
+
+        &__section-img {
+            display: none;
+            padding-right: 0px !important;
+            padding-left: 0px !important;
+        }
+
+    }
+
+    .suscribirse {
+        position: relative;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        writing-mode: vertical-lr;
+        margin-top: 550px;
+
+        &__caja {
+
+            position: absolute;
+            bottom: 0;
+            font-size: $xl-large;
+            font-weight: $old-bold;
+            font-family: $old-standard;
+        }
+    }
+
+    .newsletter {
+        background-color: $smoky-black;
+        padding: 20px;
+        margin-top: 20px;
+
+        &__section-titulo {
+            font-size: $xl-large;
+            color: $white;
+            font-weight: $old-bold;
+            font-family: $old-standard;
+        }
+
+        &__section-input {
+            padding-left: 0px !important;
+        }
+    }
+
+    .textos-section {
+        padding: 30px;
+
+        &__bajada {
+            font-size: $large;
+            font-weight: $raleway-regular;
+            color: $quick-silver;
+            text-align: left;
+        }
+
+        &__boton-tienda {
+
+
+            &:hover {
+                background-color: $smoky-black;
+                color: $white;
+            }
+        }
+    }
+}
